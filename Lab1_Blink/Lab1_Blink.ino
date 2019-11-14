@@ -13,13 +13,13 @@ int led = 13;
 
 void setup() {
   //Using the function pinMode to call the variable led and provide output:
-  pinMode(led, OUTPUT)
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(led, HIGH);
-  delay(1000)
+  delay(1500);
   digitalWrite(led, LOW);
-  delay(1000)
+  delay(500);
 }

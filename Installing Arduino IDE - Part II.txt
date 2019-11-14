@@ -1,0 +1,7 @@
+﻿Open your terminal
+
+
+From your root drive copy and paste the command below
+
+
+sudo chmod a+rw /dev/ttyACM0
