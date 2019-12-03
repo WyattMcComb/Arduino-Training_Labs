@@ -43,5 +43,12 @@ void loop() {
   int buttonState = digitalRead(pushButton);
   //print out the stae of the button
   Serial.println(buttonState);
+  // if buttonState is True/Pushed by human the LED with Blink
+  if (buttonState == HIGH){
+    digitalWrite(led, HIGH);
+    delay(1500);
+    digitalWrite(led, LOW);
+    delay(500);
+    }
   delay(250); // delay in between readings for stability
 }
